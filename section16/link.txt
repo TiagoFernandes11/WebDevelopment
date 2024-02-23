@@ -1,0 +1,3 @@
+HTML DOM Style Object
+
+https://www.w3schools.com/jsref/dom_obj_style.asp
