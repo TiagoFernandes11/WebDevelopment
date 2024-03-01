@@ -33,3 +33,7 @@ Portifolio
 
 Dice Game html
 <img width="959" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/585d91ed-1c3c-4b6c-bf03-96ae76f78f97">
+
+Genius Game html
+<img width="399" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/60803d80-435d-4f1a-a438-643df9c66fd5">
+
