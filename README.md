@@ -37,3 +37,5 @@ Dice Game html
 Genius Game html
 <img width="399" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/60803d80-435d-4f1a-a438-643df9c66fd5">
 
+QR Code Generator
+<img width="786" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/b0db6348-9f01-46ed-9564-7cfe549f4df4">
