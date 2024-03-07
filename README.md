@@ -43,3 +43,8 @@ Genius Game html
 QR Code Generator
 
 <img width="786" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/b0db6348-9f01-46ed-9564-7cfe549f4df4">
+
+Secrets web site
+
+<img width="944" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/775037b0-a98e-40f6-9f78-0b72f1b4134a">
+
