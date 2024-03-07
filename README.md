@@ -46,5 +46,6 @@ QR Code Generator
 
 Secrets web site
 
-<img width="944" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/775037b0-a98e-40f6-9f78-0b72f1b4134a">
+<img width="559" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/e5e6e475-06d7-4f61-8c11-e026f89eb0b9">
+
 
