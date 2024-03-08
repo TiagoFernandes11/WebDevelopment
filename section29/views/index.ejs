@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/style.css" />
     <title>Capstone project</title>
-</head>
-<body>
-    <% if (locals.hello) {%>
-        <h1><%= hello  %></h1>
+    <style>
+      body {
+        display: flex;
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1 {
+        color: #007bff;
+      }
+
+      /* Add more styles as needed */
+
+      @media only screen and (max-width: 600px) {
+        /* Add responsive styles for smaller screens */
+      }
+    </style>
+  </head>
+  <body>
+    <% if (locals.joke) {%>
+    <h1><%= joke %></h1>
     <% } %>
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.timeoutdubai.com%2Fattraction%2Fimg-worlds-of-adventure&psig=AOvVaw1LIPJwhpChlIGmnOTyjLig&ust=1709937208468000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIje7dKa44QDFQAAAAAdAAAAABAD" alt="">
-</body>
+  </body>
 </html>

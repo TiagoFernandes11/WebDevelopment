@@ -11,8 +11,17 @@ const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => {
-  res.render("index.ejs", { hello: "Sua mãe é minha" });
+app.get("/", async (req, res) => {
+  try {
+    const response = await axios.get(
+      "https://v2.jokeapi.dev/joke/Any?type=single"
+    );
+    const result = response.data;
+    console.log(result);
+    res.render("index.ejs", { joke: result.joke });
+  } catch (error) {
+    console.error("Failed to make request:", error.message);
+  }
 });
 
 app.listen(port, () => {
