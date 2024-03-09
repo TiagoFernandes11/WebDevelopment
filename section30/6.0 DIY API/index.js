@@ -29,7 +29,17 @@ app.get("/filter", (req, res) => {
   res.send(typeJokes[getRandomInt(typeJokes.length)]);
 });
 
-//4. POST a new joke
+app.post("/jokes", (req, res) => {
+  let newjoke = {
+    id: jokes.length + 1,
+    jokeText: req.body.jokeText,
+    jokeType: req.body.jokeType,
+  };
+  jokes.push(newjoke);
+  console.log(newjoke);
+  res.json(newjoke);
+});
+
 
 //5. PUT a joke
 
