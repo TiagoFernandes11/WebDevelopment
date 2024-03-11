@@ -40,8 +40,16 @@ app.post("/jokes", (req, res) => {
   res.json(newjoke);
 });
 
-
-//5. PUT a joke
+app.put("/jokes/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  const replacementJoke = {
+    id: id,
+    jokeText: req.body.text,
+    jokeType: req.body.type,
+  };
+  jokes[id - 1] = replacementJoke;
+  res.json(replacementJoke);
+});
 
 //6. PATCH a joke
 
