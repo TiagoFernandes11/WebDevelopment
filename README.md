@@ -48,4 +48,7 @@ Secrets web site
 
 <img width="559" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/e5e6e475-06d7-4f61-8c11-e026f89eb0b9">
 
+Jokes API
 
+<img width="404" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/ae365c6d-b6ad-489c-a632-caed982d4318">
+<img width="374" alt="image" src="https://github.com/TiagoFernandes11/WebDevelopment/assets/89404933/fb9be5ec-179a-41e5-a86c-b9a9ce2f0ade">
